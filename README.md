@@ -8,7 +8,7 @@
 
 #### 四级标题
 
-这是一个段落，包含 **加粗文本**、*斜体文本*、`内联代码`、以及 [超链接](https://example.com "示例链接")。
+这是一个段落，包含 **加粗文本**、*斜体文本*、`内联代码`、以及 [超链接](https://www.baidu.com "示例链接")。
 
 还支持 ~删除线~、**高亮文本**、HTML (HyperText Markup Language)、`Ctrl+C` 键盘输入、H<sub>2</sub>O 下标和 x<sup>2</sup> 上标。
 
@@ -38,9 +38,12 @@
 
 ### 任务列表（GFM）
 
--   [x]  已完成任务
--   [x]  待完成任务
--   [x]  另一个已完成任务
+-   [x] 
+     已完成任务
+-   [ ] 
+     待完成任务
+-   [x] 
+     另一个已完成任务
 
 ### 定义列表
 
@@ -84,22 +87,28 @@ print(fibonacci(10))
 
 ## 媒体元素
 
-### 图片
+### 标准图片
 
-![示例图片](https://via.placeholder.com/400x200 "这是一个示例图片")
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+### 带宽高属性的图片
+
+<img src="https://sf16-sg.tiktokcdn.com/obj/eden-sg/hubseh7bsbps/20251208-160108.png" alt="InfoQuest Banner" width="600" />
 
 ### 图片与标题（Figure）
 
-![图表](https://via.placeholder.com/300x200 "图 1: 示例图表")
+<figure>
+  <img src="https://img.shields.io/badge/python-3.12+-blue.svg" alt="Python 3.12+" />
+  <figcaption>图 1: Python 版本徽章</figcaption>
+</figure>
 
-### 视频（转换为链接）
+### GitHub 视频（user-attachments URL）
 
-<!-- video: http://localhost:5173/example.mp4 (width: 400, height: 300) -->
-[视频: 您的浏览器不支持视频标签](http://localhost:5173/example.mp4)
+https://github.com/user-attachments/assets/f3786598-1f2a-4d07-919e-8b99dfa1de3e
 
-### 音频（转换为链接）
+### 音频（转换为下载链接）
 
-[音频: 您的浏览器不支持音频标签](http://localhost:5173/example.mp3)
+[🔊 url?id=447925558.mp3](http://music.163.com/song/media/outer/url?id=447925558.mp3)
 
 ## 表单元素
 
@@ -109,13 +118,18 @@ print(fibonacci(10))
 
 国家/地区： [中国] 
 
+掌握的编程语言（多选）： [Python, Java] 
+
 性别：
 
-[ ] 男[ ] 女
+[ ] 男
+[x] 女
 
 兴趣爱好：
 
-[ ] 阅读[x] 运动[x] 音乐
+[ ] 阅读
+[ ] 运动
+[ ] 音乐
 
 备注：
 
